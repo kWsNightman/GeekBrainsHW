@@ -2,10 +2,7 @@ count = 0
 user_words = input('Input some words: ').split()
 for i in user_words:
     if i.isalpha():
-        if len(i) > 10:
-            print(f'{count + 1}:{i[:11]}')
-        else:
-            print(f'{count + 1}:{i}')
+        print(f'{count + 1}:{i[:10]}')
         count += 1
     else:
         while not i.isalpha():
