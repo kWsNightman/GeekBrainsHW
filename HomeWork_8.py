@@ -12,7 +12,6 @@ while True:
         number_elements = input('Please input a number: ')
 
 for i in range(0, int(number_elements), 2):
-    print(i)
     if i + 1 < len(elements):
         elements[i], elements[i + 1] = elements[i + 1], elements[i]
 print(elements)

@@ -42,7 +42,7 @@ while True:
         for i, val in data_products:
             for b in val:
                 info[b].append(val.get(b))
-            print(info)
+        print(info)
     elif user_selection == 'data':
         print(data_products)
     elif user_selection == 'exit':
