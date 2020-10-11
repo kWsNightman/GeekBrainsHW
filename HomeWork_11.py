@@ -8,7 +8,7 @@ while not user_number == 'exit':
             print(ratings)
         else:
             for i in ratings:
-                if i > int(user_number):
+                if i >= int(user_number):
                     continue
                 else:
                     ratings.insert(ratings.index(i), int(user_number))
